@@ -1,0 +1,107 @@
+! These are all possible options, presented with default values.
+! xst will fallback to *.option if st.option is not present.
+! see src/config.h for more information about option meanings.
+
+! These options only take effect on startup.
+st.termname:     st-256color
+! if you do not set shell, precedence is: -e arg, utmp option, SHELL env var, /etc/passwd shell
+st.shell:        /bin/bash
+
+! The following options options can be reloaded via USR1 signal.
+st.font:         Liberation Mono:pixelsize=12:antialias=true:autohint=true
+! Additional fonts to use for missing glyphs. Accepts a *comma separated* list of fonts
+st.sparefonts: Iosevka Term:pixelsize=12:antialias=true:autohint=true,Envy Code R:pixelsize=12:antialias=true:autohint=true
+
+! dynamic terminal border (pixel relative)
+st.borderperc:   20
+
+! enable verbose error statements
+st.debug:        0
+
+! Available cursor values: 2 4 6 7 = █ _ | ☃ ( 1 3 5 are blinking versions)
+st.cursorshape:  2
+st.cursorthickness:  2
+st.cursorblinkstyle: 0
+st.cursorblinkontype: 1
+
+st.disablebold:    0
+st.disableitalic:    0
+st.disableroman:    0
+
+st.allowwindowops: 0
+
+! st taskbar icon
+st.taskbaricon:   0
+
+st.minlatency:   8
+st.maxlatency:   33
+st.su_timeout:   200
+st.chscale:      1.0
+st.cwscale:      1.0
+st.blinktimeout: 800
+! this is a char that is exposed like so: `printf '\033[z'`
+st.prompt_char:  $
+
+! Default number of rows and columns
+st.rows:  25
+st.cols:  80
+
+! Dimensions if PixelGeometry is selected
+st.width: 800
+st.height: 600
+
+! bell volume, 0 disables this feature
+st.bellvolume:  200
+
+! history size
+st.histsize:  1200
+
+! instruct the window manager to skip taskbar fot the current window
+! 0 disables the feature
+st.skiptaskbar:   0
+
+! Skip the DM pager
+st.skippager:   0
+
+! opacity==255 means what terminal will be not transparent, 0 - fully transparent
+st.opacity:      255
+st.unfocused_opacity:   128
+
+
+! Defaults taken from base16-twilight colorscheme.
+st.foreground:   #a7a7a7
+st.background:   #1e1e1e
+st.color0:       #1e1e1e
+st.color1:       #cf6a4c
+st.color2:       #8f9d6a
+st.color3:       #f9ee98
+st.color4:       #7587a6
+st.color5:       #9b859d
+st.color6:       #afc4db
+st.color7:       #a7a7a7
+st.color8:       #5f5a60
+st.color9:       #cf6a4c
+st.color10:      #8f9d6a
+st.color11:      #f9ee98
+st.color12:      #7587a6
+st.color13:      #9b859d
+st.color14:      #afc4db
+st.color15:      #ffffff
+st.color16:      #cda869
+st.color17:      #9b703f
+st.color18:      #323537
+st.color19:      #464b50
+st.color20:      #838184
+st.color21:      #c3c3c3
+
+! 1: render most of the lines/blocks characters without using the font for
+!    perfect alignment between cells (U2500 - U259F except dashes/diagonals).
+!    Bold affects lines thickness if boxdraw_bold is not 0. Italic is ignored.
+! 0: disable (render all U25XX glyphs normally from the font).
+st.boxdraw: 0
+st.boxdraw_bold: 0
+
+! braille (U28XX):  1: render as adjacent "pixels",  0: use font
+st.boxdraw_braille: 0
+
+

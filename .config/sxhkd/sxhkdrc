@@ -1,0 +1,10 @@
+# lock screen
+super + l
+	betterlockscreen -l
+
+# start the dmenu (search bar)
+alt + p
+	dmenu_run
+
+super + shift + s
+  maim -s ~/Pictures/$(date +%s).png

@@ -1,0 +1,48 @@
+2024-07-26 16:54:38.922 [info] Log level: Info
+2024-07-26 16:54:38.922 [info] Validating found git in: "git"
+2024-07-26 16:54:38.922 [info] Using git "2.45.2" from "git"
+2024-07-26 16:54:38.922 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-26 16:54:38.922 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-26 16:54:38.922 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-26 16:54:38.922 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-26 16:54:39.034 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-26 16:54:39.034 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-26 16:54:39.106 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-26 16:54:39.106 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-26 16:54:39.129 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-26 16:54:39.129 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-26 16:54:40.172 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-26 16:54:40.172 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-26 16:54:40.640 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-26 16:54:40.640 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-26 16:54:47.622 [info] Log level: Info
+2024-07-26 16:54:47.622 [info] Validating found git in: "git"
+2024-07-26 16:54:47.622 [info] Using git "2.45.2" from "git"
+2024-07-26 16:54:47.624 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-26 16:54:47.630 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-07-26 16:54:47.638 [info] Open repository: /home/alien/Alien/courses_notes
+2024-07-26 16:54:47.647 [info] > git config --get commit.template [4ms]
+2024-07-26 16:54:47.648 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-26 16:54:47.656 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-26 16:54:47.657 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-07-26 16:54:47.663 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-26 16:54:47.675 [info] > git status -z -uall [2ms]
+2024-07-26 16:54:47.686 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-07-26 16:54:47.690 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-07-26 16:54:47.691 [warning] git config failed: Failed to execute git
+2024-07-26 16:54:47.693 [info] > git config --get commit.template [8ms]
+2024-07-26 16:54:47.698 [info] > git reflog main --grep-reflog=branch: Created from *. [5ms]
+2024-07-26 16:54:47.701 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-07-26 16:54:47.708 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [8ms]
+2024-07-26 16:54:47.708 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-07-26 16:54:47.714 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2024-07-26 16:54:47.725 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [7ms]
+2024-07-26 16:54:47.766 [info] > git status -z -uall [4ms]
+2024-07-26 16:54:47.767 [info] > git diff --name-status -z --diff-filter=ADMR 0f1883744a21b99def31082fae1180eb4b1ab262...refs/remotes/origin/main [39ms]
+2024-07-26 16:54:47.788 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-07-26 16:54:47.792 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-07-26 16:54:47.792 [warning] git config failed: Failed to execute git
+2024-07-26 16:54:47.796 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-07-26 16:54:47.799 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-07-26 16:54:47.799 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-07-26 16:54:48.200 [info] > git check-ignore -v -z --stdin [1ms]

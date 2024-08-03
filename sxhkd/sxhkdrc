@@ -1,0 +1,26 @@
+# increase the brightness by 10%
+super + F6 
+	brightnessctl set +1
+
+# decrease the brightness by 10%
+super + F5 
+	brightnessctl set 1-
+
+# decrease the brightness by 10%
+super + F10 
+	pamixer -d 10
+
+# increase the brightness by 10%
+super + F11	
+	pamixer -i 10
+
+# lock screen
+super + l
+	betterlockscreen -l
+
+# start the dmenu (search bar)
+alt + p
+	dmenu_run
+
+super + shift + s
+  maim -s ~/Pictures/$(date +%s).png

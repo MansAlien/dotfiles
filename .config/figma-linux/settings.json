@@ -1,0 +1,50 @@
+{
+  "clientId": "37b995ea-1ce8-48a8-b6e6-d92bf9b9078c",
+  "userId": "",
+  "authedUserIDs": [],
+  "app": {
+    "logLevel": 1,
+    "lastTimeClearLogFile": 1722616324193,
+    "enableColorSpaceSrgb": false,
+    "visibleNewProjectBtn": true,
+    "useZenity": false,
+    "disableThemes": false,
+    "panelHeight": 40,
+    "saveLastOpenedTabs": true,
+    "exportDir": "/home/alien/Pictures/Figma",
+    "commandSwitches": [
+      {
+        "switch": "enable-gpu-rasterization"
+      },
+      {
+        "switch": "enable-experimental-canvas-features"
+      },
+      {
+        "switch": "use-vulkan"
+      }
+    ],
+    "fontDirs": [
+      "/usr/share/fonts",
+      "/usr/local/share/fonts",
+      "/run/host/fonts",
+      "/run/host/user-fonts",
+      "/home/alien/.local/share/fonts"
+    ],
+    "recentlyClosedTabs": [],
+    "windowsState": {},
+    "lastOpenedTabs": {},
+    "featureFlags": {},
+    "savedExtensions": [],
+    "themeDropdownOpen": true,
+    "creatorsThemesDropdownOpen": false,
+    "useOldPreviewer": false,
+    "dontShowTutorialCreator": false
+  },
+  "theme": {
+    "currentTheme": "0"
+  },
+  "ui": {
+    "scalePanel": 1,
+    "scaleFigmaUI": 1
+  }
+}

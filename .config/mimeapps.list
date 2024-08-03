@@ -1,0 +1,16 @@
+[Default Applications]
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+application/vnd.ms-publisher=org.xfce.mousepad.desktop
+x-scheme-handler/figma=figma-linux.desktop
+
+[Added Associations]
+application/vnd.ms-publisher=org.xfce.mousepad.desktop;
+text/plain=org.xfce.mousepad.desktop;
+text/x-lua=code.desktop;nvim.desktop;
+text/x-python=nvim.desktop;
+image/jpeg=feh.desktop;google-chrome.desktop;
+application/pdf=google-chrome.desktop;

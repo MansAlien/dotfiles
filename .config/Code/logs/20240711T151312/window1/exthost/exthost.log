@@ -1,0 +1,10 @@
+2024-07-11 15:13:13.552 [info] Extension host with pid 12947 started
+2024-07-11 15:13:13.552 [info] Skipping acquiring lock for /home/alien/.config/Code/User/workspaceStorage/322fd5f6999073e09b78cf92e22665c3.
+2024-07-11 15:13:13.617 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-11 15:13:13.654 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-11 15:13:13.678 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-11 15:13:13.710 [info] Eager extensions activated
+2024-07-11 15:13:13.734 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-11 15:13:13.736 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-11 15:13:18.362 [info] Extension host terminating: renderer closed the MessagePort
+2024-07-11 15:13:18.371 [info] Extension host with pid 12947 exiting with code 0

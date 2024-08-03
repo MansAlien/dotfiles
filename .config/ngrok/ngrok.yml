@@ -1,0 +1,11 @@
+version: "2"
+authtoken: 2jkv6aC4QYnetpcbfva1ve00n89_2Zhrwwv8pKv2DDJdRE31U
+
+tunnels:
+  ssh:
+    proto: tcp
+    addr: 22
+    remote_addr: 0.tcp.eu.ngrok.io:12279
+    ip_restriction:
+      allow_cidrs:
+        - 192.160.227.173/32
